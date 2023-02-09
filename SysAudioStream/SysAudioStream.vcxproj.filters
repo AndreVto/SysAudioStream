@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="pkcs7_padding.cpp" />
+    <ClCompile Include="PulseAudioCapture.cpp" />
+    <ClCompile Include="WASAPICapture.cpp" />
+    <ClCompile Include="aes.cpp" />
+    <ClCompile Include="AESWrapper.cpp" />
+    <ClCompile Include="AudioStream.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="pkcs7_padding.h" />
+    <ClInclude Include="PulseAudioCapture.h" />
+    <ClInclude Include="RandomGenerator.h" />
+    <ClInclude Include="WASAPICapture.h" />
+    <ClInclude Include="aes.h" />
+    <ClInclude Include="AESWrapper.h" />
+    <ClInclude Include="AudioStream.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+</Project>
